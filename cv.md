@@ -29,5 +29,5 @@ function factorial(n){
 }
 ```
 ### English
-A1-A2  English Basic User
-Могу участвовать в несложном разговоре, если собеседник говорит медленно и отчетливо и готов оказать помощь
+A1-A2 English Basic User
+I can participate in simple conversations provided the other person speaks slowly and clearly and is willing to help
