@@ -11,19 +11,74 @@
     <header class="header">
       <nav>
         <ul class="nav-list">
-          <li><a href="" class="nav-list__item">contacts</a></li>
-          <li><a href="" class="nav-list__item">skills</a></li>
-          <li><a href="" class="nav-list__item">code</a></li>
-          <li><a href="" class="nav-list__item">english</a></li>
+          <li><a href="#about-me" class="nav-list__item">about me</a></li>
+          <li><a href="#contacts" class="nav-list__item">contacts</a></li>
+          <li><a href="#skills" class="nav-list__item">skills</a></li>
+          <li><a href="#code" class="nav-list__item">code</a></li>
+          <li><a href="#english" class="nav-list__item">english</a></li>
         </ul>
       </nav>
     </header>
     <main class="content">
       <section class="summary">
         <img src="./images/avatar.jpg" alt="my_photo" class="summary__avatar">
-        <h1 class="summary__greeting">Hello, <br> I'm Danil Chesnokov</h1>
+        <div class="summary__container">
+          <h1 class="summary__greeting">Hello, <br> I'm Danil Chesnokov</h1>
+          <p class="summary__job">front-end developer (begginer)</p>
+        </div>
       </section>
+      <div class="section-wrapper">
+        <section class="section" id="about-me">
+          <h2 class="section__title">About me</h2>
+          <p class="section__paragraph">Back in school, I went to various programming Olympiads. Since then, I liked code. I am a good student and I easily communicate with other people. Therefore, I want to acquire the skills necessary to get a job as a front-end developer and build a good career as a coder.</p>
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section__title">Contacts</h2>
+          <ul class="section__list">
+            <li class="section__list-item">Location: Russia, Nizhny Novgorod</li>
+            <li class="section__list-item">E-mail: shaytann831@gmail.com</li>
+            <li class="section__list-item">Telegram: [@tannshay](https://t.me/tannshay)</li>
+            <li class="section__list-item">GitHub: [tannshay](https://github.com/tannshay)</li>
+          </ul>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section__title">Skills</h2>
+          <ul class="section__list">
+            <li class="section__list-item">Html</li>
+            <li class="section__list-item">Css</li>
+            <li class="section__list-item">JS (basic)</li>
+            <li class="section__list-item">Git</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section__title">Code example</h2>
+          <pre><code>
+            function factorial(n){
+              if (n < 0) {
+                return -1
+              } else if (n === 0 || n === 1){
+                return 1
+              } else {
+                let res = 1
+                for (let i = 2; i<=n; i++){
+                  res *= i
+                }
+                return res
+              }
+            }
+          </code></pre>
+        </section>
+        <section class="section" id="english">
+          <h2 class="section__title">English</h2>
+             <p class="section__paragraph">A1-A2 English Basic User <br>
+              I can participate in simple conversations provided the other person speaks slowly and clearly and is willing to help</p>
+        </section>
+      </div>
     </main>
+    <footer class="footer">
+      <!-- <a href="https://rs.school/courses/javascript-ru"><img src="./images/rsschool-logo.svg" alt="rsschool-logo"></a> -->
+      <img class="logo" src="./images/rsschool-logo.svg" alt="rsschool-logo">
+    </footer>
   </div>
 </body>
 </html>
