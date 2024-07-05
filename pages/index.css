@@ -1,0 +1,31 @@
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/nav-list/nav-list.css);
+@import url(../blocks/nav-list/__item/nav-list__item.css);
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/summary/summary.css);
+@import url(../blocks/summary/__avatar/summary__avatar.css);
+@import url(../blocks/summary/__greeting/summary__greeting.css);
+@import url(../blocks/summary/__job/summary__job.css);
+
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/__list/section__list.css);
+@import url(../blocks/section/__list-item/section__list-item.css);
+@import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/section/_black/section_black.css);
+
+@import url(../blocks/link/link.css);
+@import url(../blocks/link/__with-img/link__with-img.css);
+@import url(../blocks/link/_black/link_black.css);
+
+@import url(../blocks/logo/logo.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/rsschool-logo/rsschool-logo.css);

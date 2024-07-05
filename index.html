@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#about-me" class="nav-list__item">about me</a></li>
+          <li><a href="#contacts" class="nav-list__item">contacts</a></li>
+          <li><a href="#skills" class="nav-list__item">skills</a></li>
+          <li><a href="#code" class="nav-list__item">code</a></li>
+          <li><a href="#pet-projects" class="nav-list__item">pet projects</a></li>
+          <li><a href="#english" class="nav-list__item">english</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content">
+      <section class="summary">
+        <img src="./images/avatar.jpg" alt="my_photo" class="summary__avatar">
+        <div class="summary__container">
+          <h1 class="summary__greeting">Hello, <br> I'm Danil Chesnokov</h1>
+          <p class="summary__job">front-end developer (begginer)</p>
+        </div>
+      </section>
+      <div class="section-wrapper">
+        <section class="section" id="about-me">
+          <h2 class="section__title">About me</h2>
+          <p class="section__paragraph">Back in school, I went to various programming Olympiads. Since then, I liked code. I am a good student and I easily communicate with other people. Therefore, I want to acquire the skills necessary to get a job as a front-end developer and build a good career as a coder.</p>
+        </section>
+        <section class="section section_black" id="contacts">
+          <h2 class="section__title">Contacts</h2>
+          <ul class="section__list">
+            <li class="section__list-item"><img class="logo" src="./images/location-logo.svg" alt="location-logo"> Location: Russia, Nizhny Novgorod</li>
+            <li class="section__list-item"><img class="logo" src="./images/gmail-logo.svg" alt="gmail-logo"> E-mail: shaytann831@gmail.com</li>
+            <li class="section__list-item"><img class="logo" src="./images/telegram-logo.svg" alt="telegram-logo"> Telegram: <a class="link" href="https://t.me/tannshay">@tannshay</a></li>
+            <li class="section__list-item"><img class="logo" src="./images/discord-logo.svg" alt="discord-logo"> Discord: tannshay</a></li>
+          </ul>
+        </section>
+        <section class="section section_black" id="skills">
+          <h2 class="section__title">Skills</h2>
+          <ul class="section__list">
+            <li class="section__list-item"><img class="logo" src="./images/html-logo.svg" alt="html-logo"> Html</li>
+            <li class="section__list-item"><img class="logo" src="./images/css-logo.svg" alt="css-logo"> Css</li>
+            <li class="section__list-item"><img class="logo" src="./images/js-logo.svg" alt="js-logo"> JS (basic)</li>
+            <li class="section__list-item"><img class="logo" src="./images/git-logo.svg" alt="git-logo"> Git</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section__title">Code example</h2>
+          <pre><code>
+            function factorial(n){
+              if (n &lt; 0) {
+                return -1
+              } else if (n === 0 || n === 1){
+                return 1
+              } else {
+                let res = 1
+                for (let i = 2; i &lt; = n; i++){
+                  res *= i
+                }
+                return res
+              }
+            }
+          </code></pre>
+        </section>
+        <section class="section" id="pet-projects">
+          <h2 class="section__title">My pet projects</h2>
+          <p class="section__paragraph">
+            <a class="link link_black" href="https://tannshay.github.io/russian-travel/">This project</a> dedicated to traveling around Russia.
+            Used grid technologies and media queries to make the page responsive
+          </p>
+        </section>
+        <section class="section" id="english">
+          <h2 class="section__title">English</h2>
+             <p class="section__paragraph">A1-A2 English Basic User <br>
+              I can participate in simple conversations provided the other person speaks slowly and clearly and is willing to help</p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer section section_black ">
+      <a class="link link__with-img" href="https://github.com/tannshay">
+        <img class="logo" src="./images/github-logo.svg" alt="github-logo">My GitHub
+      </a>
+      <p>© 2024</p>
+      <a href="https://rs.school/courses/javascript-ru" class="link">
+        <img class="rsschool-logo" src="./images/rsschool-logo.svg" alt="rsschool-logo">
+      </a>
+    </footer>
+  </div>
+</body>
+</html>
