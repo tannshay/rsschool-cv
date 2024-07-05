@@ -1,0 +1,11 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.page{
+  background-color: #f8fec0;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

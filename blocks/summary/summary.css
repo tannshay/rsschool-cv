@@ -1,0 +1,9 @@
+.summary{
+  width: 100%;
+  background: linear-gradient(to bottom, #fff, #f8fec0);
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+}
