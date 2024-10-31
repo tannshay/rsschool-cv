@@ -1,1 +1,1 @@
-https://tannshay.github.io/rsschool-cv/cv.md
+https://tannshay.github.io/rsschool-cv/cv
